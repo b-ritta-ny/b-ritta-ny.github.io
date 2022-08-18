@@ -1,16 +1,16 @@
 import Head from 'next/head'
-// import Header from '@components/Header'
+import Header from '@components/Header'
 import Footer from '@components/Footer'
-import Layout, { siteTitle } from '@components/Layout'
+import Layout, { siteTitle } from '../components/Layout'
 import utilStyles from '@styles/utils.module.css';
 
 export default function Home() {
   return (
     <Layout home>
-      <Head>
+      <Header>
         <title>{siteTitle}</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Header>
 
       <section className={utilStyles.headingMd}>
         <p>I'm a Georgia born, former NCAA Division I, All-American collegiate athlete, international fashion model, and tech-loving full stack software engineer. 
