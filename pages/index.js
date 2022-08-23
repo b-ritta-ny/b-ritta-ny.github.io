@@ -14,7 +14,7 @@ export default function Home() {
 
       <section className={utilStyles.headingMd}>
         <p>I'm a Georgia born, former NCAA Division I, All-American collegiate athlete, international fashion model, and tech-loving full stack software engineer. 
-<br></br> 
+<br/><br/> 
 I'm experienced in Ruby on Rails and JavaScript based programming and a background in front end development from an early age. I also hold strong skills in SQL (MySQL & PostgreSQL) and Adobe Photoshop to help enhance software development. I possess strong skills in leadership and competitive focus that assist ambitious, powerhouse companies in knocking down goals through promoting high performance culture. Open minded and curious, I’m eager to learn from others whilst applying my own unique view. </p>
       </section>
 
